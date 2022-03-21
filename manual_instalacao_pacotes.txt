@@ -1,0 +1,13 @@
+## Criar ambiente no Python
+python3 -m venv env_name
+env_name\Scripts\activate. bat
+source env_name/bin/activate.
+
+## Criar ambiente conda (testado)
+conda create --name env_name python=3.8.8
+conda activate env_name
+
+## Instalar dependencias para rodar o código
+## Vá ao local onde se encontra o arquivo requirements.txt
+pip install -r .\requirements.txt
+jupyter-lab
